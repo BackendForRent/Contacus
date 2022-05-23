@@ -1,0 +1,20 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    first_name:
+        label: First name
+    last_name:
+        label: Last name
+    email:
+        label: Email
+    telephone:
+        label: Telephone
+    message:
+        label: Message 
+    created_at:
+        label: Created at       

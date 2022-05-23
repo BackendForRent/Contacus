@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Message
+
+# Model Form Field configuration
+form: $/goosy/contacus/models/message/fields.yaml
+
+# Model Class name
+modelClass: Goosy\Contacus\Models\Message
+
+# Default redirect location
+defaultRedirect: goosy/contacus/messages
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: goosy/contacus/messages/update/:id
+    redirectClose: goosy/contacus/messages
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: goosy/contacus/messages
+    redirectClose: goosy/contacus/messages
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
