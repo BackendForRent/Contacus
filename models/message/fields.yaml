@@ -5,13 +5,18 @@
 fields:
     first_name:
         label: First name
+        span: left
     last_name:
         label: Last name
+        span: right
     email:
         label: Email
         type: email
+        span: left
     telephone:
         label: Telephone
+        span: right
     message:
-        label: Message  
+        label: Message
         type: textarea
+        size: huge

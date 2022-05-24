@@ -28,7 +28,8 @@ class Message extends Model
      * @var array Validation rules for attributes
      */
     public $rules = [
-        'email' => 'email'
+        'first_name'  => 'required',
+        'email' => 'email|required',
     ];
 
     /**
